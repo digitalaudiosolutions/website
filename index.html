@@ -39,32 +39,19 @@
 </head>
 
 <body>
-	<header class="header" id="header">
-		<!--header-start-->
-		<div class="container">
-			<figure class="logo animated fadeInDown delay-07s">
-				<a href="#"><img src="img/logo.png" alt=""></a>
-			</figure>
-			<h1 class="animated fadeInDown delay-07s">Welcome To Knight Studios</h1>
-			<ul class="we-create animated fadeInUp delay-1s">
-				<li>We are a digital agency that loves crafting beautiful websites.</li>
-			</ul>
-			<a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
-		</div>
-	</header>
-	<!--header-end-->
-
+	<section class="top-of-page" id="home"></section>
+	
 	<nav class="main-nav-outer" id="test">
 		<!--main-nav-start-->
 		<div class="container">
-      <div class="small-logo-mobile"><a href="#header"><img src="img/small-logo.png" alt=""></a></div>
+      	<div class="small-logo-mobile"><a href="#home"><img src="img/DAS_Logo01.png" alt=""></a></div>
 			<ul class="main-nav">
-				<li><a href="#header">Home</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="#Portfolio">Portfolio</a></li>
-				<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
-				<li><a href="#client">Clients</a></li>
-				<li><a href="#team">Team</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#service">Company</a></li>
+				<li><a href="#Portfolio">EQ Box</a></li>
+				<li class="small-logo"><a href="#home"><img src="img/DAS_Logo01.png" alt=""></a></li>
+				<li><a href="#client">Pre-Order</a></li>
+				<li><a href="#team">About Us</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
@@ -72,7 +59,9 @@
 	</nav>
 	<!--main-nav-end-->
 
-
+	<figure>
+		<a href="#"><img src="img/DAS_Logo01.png" alt=""></a>
+	</figure>
 
 	<section class="main-section" id="service">
 		<!--main-section-start-->
@@ -329,21 +318,9 @@
 
 			<div class="row">
 				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
-					<div class="contact-info-box address clearfix">
-						<h3><i class=" icon-map-marker"></i>Address:</h3>
-						<span>308 Negra Arroyo Lane<br>Albuquerque, New Mexico, 87111.</span>
-					</div>
-					<div class="contact-info-box phone clearfix">
-						<h3><i class="fa fa-phone"></i>Phone:</h3>
-						<span>1-800-BOO-YAHH</span>
-					</div>
 					<div class="contact-info-box email clearfix">
 						<h3><i class="fa fa-pencil"></i>email:</h3>
 						<span>hello@knightstudios.com</span>
-					</div>
-					<div class="contact-info-box hours clearfix">
-						<h3><i class="fa fa-clock-o"></i>Hours:</h3>
-						<span><strong>Monday - Thursday:</strong> 10am - 6pm<br><strong>Friday:</strong> People work on Fridays now?<br><strong>Saturday - Sunday:</strong> Best not to ask.</span>
 					</div>
 					<ul class="social-link">
 						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -407,13 +384,12 @@
 			$('.res-nav_click').click(function() {
 				$('.main-nav').slideToggle();
 				return false
-
 			});
 
-      $('.Portfolio-box').magnificPopup({
-        delegate: 'a',
-        type: 'image'
-      });
+			$('.Portfolio-box').magnificPopup({
+				delegate: 'a',
+				type: 'image'
+			});
 
 		});
 	</script>
@@ -425,7 +401,6 @@
 		});
 		wow.init();
 	</script>
-
 
 	<script type="text/javascript">
 		$(window).load(function() {
