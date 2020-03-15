@@ -175,10 +175,10 @@ color: #fff;
 ---------------------------------*/
 .main-nav-outer{
 	padding:0px;
-	border-bottom:1px solid #dddddd;
-	box-shadow:0 4px 5px -3px #ececec;
+	border-bottom:1px solid #211c1c;
+	box-shadow:0 4px 5px -3px #211c1c;
 	position:relative;
-	background:#fff;
+	background: #211c1c;
 }
 .main-nav{
 	text-align:center;
@@ -191,8 +191,8 @@ color: #fff;
 	margin:0 1px;
 }
 .main-nav li a{
-	display:inline-block;
-	color:#222222;
+	float: inline-start;
+	color:#fff;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -208,10 +208,11 @@ color: #fff;
 	color: #7cc576;
 }
 
-.small-logo{ 
-	padding:0 32px;
+.small-logo img{ 
+	padding:0 8px;
+	max-height: 20%;
+	max-width: 20%;
 }
-
 
 .main-section{
 	padding:90px 0 110px;

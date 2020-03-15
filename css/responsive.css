@@ -107,7 +107,7 @@
 
 @media (min-width: 768px) {
   .small-logo-mobile {
-    display: none;
+	display: none;
   }
 }
 @media (max-width: 767px) {
@@ -115,10 +115,10 @@
     text-align: left;
     position: absolute;
     top: 0;
-    padding: 10px 40px 0 0;
+	padding: 10px 40px 0 0;
   }
   
   .small-logo-mobile img  {
-    height: 50px;
+	height: 50px;
   }
 }
